@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <header class="sticky-top ">
+  <header class="sticky-top w-100">
     <nav class="navbar  navbar-expand-md navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand ms-xxl-5 ms-md-3" href="#">
@@ -35,17 +35,19 @@
       </div>
     </nav>
   </header>
-  <div id="carouselWithCaptions" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
+  <div id="carouselWithCaptions" class="carousel slide" data-bs-ride="carousel" >
+    <div class="carousel-inner" id="position-rel" >
       <div class="carousel-item active">
         <img id="background-hero" class="d-block w-100 img-responsive">
-        <div class="carousel-caption ">
+        <div class="carousel-caption text-end" id="caption-hero">
           <h5>Conf Bs As</h5>
           <p >Bs As llega por primera vez a Argentina.Un evento para compartir con nuestra comunidad el conocimiento y
             experiencia de los expertos que estan creando el futuro de Internet.Ven a conocer a miembros del evento, a
-            otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti.Te esperamos!</p>
+            otros estudiantes de Codo a Codo y los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
+            <div>
             <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
-            <button type="button" class="btn btn-success">Comprar tickets</button>
+            <button type="button" class="btn btn-success ms-2" id="button-color">Comprar tickets</button>
+            </div>
           </div>
         </div>
       </div>

@@ -1,3 +1,8 @@
+html{
+    margin:0;
+    padding:0;
+}
+
 #logo-img{
     width:70px;
     height:35px;
@@ -16,3 +21,35 @@ nav{
     background-repeat: none;
 }
 
+#position-rel{
+    position: relative;
+}
+
+#caption-hero{
+    position: absolute;
+       width: 39%;
+       left: 50%;
+       bottom:25%;
+}
+#button-color{
+    background-color: rgb(12, 192, 42);
+}
+ @media screen and (max-width: 768px){
+      #caption-hero{
+          position: absolute;
+          width: 60%;
+          left:30% ;
+      }
+ }
+
+ @media screen  and (max-width: 425px) {
+     #caption-hero{
+    position: absolute;
+    width: 60%;
+    left:30% ;
+    bottom: 10%;
+     }
+     #button-color{
+         margin-top: 0.8em;
+     }
+ }
