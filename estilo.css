@@ -1,6 +1,18 @@
+#logo-img{
+    width:70px;
+    height:35px;
+}
+nav{
+    background-color: rgb(63, 68, 67);
+}
+#ticket-color{
+    color: rgb(12, 192, 42);
+}
+
 #background-hero{
     height: 600px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("imagenes/ba4.jpg");
     background-size:cover;
     background-repeat: none;
 }
+
