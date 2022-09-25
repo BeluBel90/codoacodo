@@ -47,7 +47,10 @@ nav{
       #cards{
           margin: 0 5%;
       }
-  
+      #honolulu-img{
+          height: 100%;
+      
+      }
 
  }
 
@@ -55,7 +58,7 @@ nav{
      #caption-hero{
     position: absolute;
     width: 60%;
-    left:30% ;
+    left:30%;
     bottom: 10%;
      }
      #button-color{
@@ -65,4 +68,6 @@ nav{
      #cards{
         margin: 0;
     }
+ 
+
  }
