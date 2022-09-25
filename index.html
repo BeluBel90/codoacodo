@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <header class="sticky-top w-100">
+  <header class="sticky-top">
     <nav class="navbar  navbar-expand-md navbar-dark">
       <div class="container-fluid">
         <a class="navbar-brand ms-xxl-5 ms-md-3" href="#">
@@ -24,7 +24,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse d-md-inline d-sm-none" id="navbarBasic">
-          <ul class="navbar-nav me-auto mb-lg-0 me-xxl-4 text-center">
+          <ul class="navbar-nav me-1 mb-lg-0 me-xxl-1 text-center">
             <li class="nav-item"><a class="nav-link" href="#">La conferencia</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Los oradores</a></li>
             <li class="nav-item"><a class="nav-link" href="#">El lugar y la&nbspfecha</a></li>
@@ -55,7 +55,7 @@
   <h1 class="text-center fw-lighter fs-5 text-uppercase mt-5">conoce a los <br><span
       class="fw-normal fs-1">oradores</span></h1>
 
-  <div class="row row-cols-1 row-cols-sm-3 g-3" id="cards">
+  <div class="row row-cols-1 row-cols-sm-3 g-2" id="cards">
     <div class="col">
       <div class="card">
         <img src="imagenes/steve2.jpg" class="card-img-top" alt="card-grid-image">
@@ -105,10 +105,10 @@
       <div class="col-sm-12 col-md-6">
         <div class="card-body text-white">
           <h5 class="card-title">Bs As - Octubre</h5>
-          <p class="card-text">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los
+          <p class="card-text pe-2">Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los
             Estados Unidos, Honolulu es la mas sureña de entre las principales ciudades estadounidenses.Aunque el nombre
             de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de
-            Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad(aproximadamente 600km2 de
+            Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600km<sup>2</sup> de
             superficie)</p>
           <button type="button" class="btn btn-outline-light ">Conocé más</button>
         </div>
@@ -140,10 +140,7 @@
   </form>
 
   <footer>
-    <ul class="nav navbar-dark bg-primary link-light">
-      <li class="nav-item">
-        <a class="nav-link active link-light" aria-current="page" href="#">Active</a>
-      </li>
+    <ul class="nav navbar-dark link-light py-3 d-flex justify-content-around">
       <li class="nav-item">
         <a class="nav-link link-light" href="#">Preguntas frecuentes</a>
       </li>
@@ -165,7 +162,6 @@
       <li class="nav-item">
         <a class="nav-link link-light" href="#">Estudiantes</a>
       </li>
-
     </ul>
   </footer>
 

@@ -1,6 +1,6 @@
-html{
-    margin:0;
-    padding:0;
+body{
+    margin: 0;
+    padding: 0;
 }
 
 #logo-img{
@@ -45,7 +45,11 @@ nav{
 #form-button{
     background-color: rgb(144, 206, 131);
     border: none;
-    width: 100%;
+    width: 99%;
+}
+
+footer{
+    background-color: rgba(22, 61, 80, 0.918);
 }
  @media screen and (max-width: 768px){
       #caption-hero{
@@ -61,7 +65,7 @@ nav{
       
       }
       #form{
-        width: 85%;
+        width: 80%;
         margin: 0px auto;
     }
 
