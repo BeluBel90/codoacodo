@@ -34,12 +34,21 @@ nav{
 #button-color{
     background-color: rgb(12, 192, 42);
 }
+
+#cards{
+    margin: 0 10%;
+}
  @media screen and (max-width: 768px){
       #caption-hero{
           position: absolute;
           width: 60%;
           left:30% ;
       }
+      #cards{
+          margin: 0 5%;
+      }
+  
+
  }
 
  @media screen  and (max-width: 425px) {
@@ -52,4 +61,8 @@ nav{
      #button-color{
          margin-top: 0.8em;
      }
+
+     #cards{
+        margin: 0;
+    }
  }
