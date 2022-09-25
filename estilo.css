@@ -38,6 +38,15 @@ nav{
 #cards{
     margin: 0 10%;
 }
+#form{
+    width: 50%;
+    margin: 0px auto;
+}
+#form-button{
+    background-color: rgb(144, 206, 131);
+    border: none;
+    width: 100%;
+}
  @media screen and (max-width: 768px){
       #caption-hero{
           position: absolute;
@@ -51,10 +60,14 @@ nav{
           height: 100%;
       
       }
+      #form{
+        width: 85%;
+        margin: 0px auto;
+    }
 
  }
 
- @media screen  and (max-width: 425px) {
+ @media screen  and (max-width: 576px) {
      #caption-hero{
     position: absolute;
     width: 60%;
@@ -68,6 +81,9 @@ nav{
      #cards{
         margin: 0;
     }
- 
+    #form{
+        width: 95%;
+        margin: 0px auto;
+    }
 
  }
