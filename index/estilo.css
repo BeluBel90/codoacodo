@@ -17,7 +17,7 @@ nav{
 
 #background-hero{
     height: 600px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("imagenes/ba4.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../imagenes/ba4.jpg");
     background-size:cover;
     background-repeat: none;
 }
