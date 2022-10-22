@@ -35,8 +35,8 @@
       </header>
   
       <main>
-      <div class="row d-flex justify-content-center mt-5" id="boxes">
-      <div class="card mx-1 border-2 border-primary box">
+      <div class="row d-flex justify-content-center mt-5 " id="boxes">
+      <div class="card row-cols-1 mx-1  gy-3 border-2 border-primary box">
         <div class="card-body text-center">
           <h5 class="card-title">Estudiante</h5>
           <h6 class="card-subtitle mb-2 text-muted py-3">Tienen un descuento</h6>
@@ -45,7 +45,7 @@
           
         </div>
       </div>
-      <div class="card mx-1 border-2 border-success box" >
+      <div class="card row-cols-1 mx-1 gy-3 border-2 border-success box " >
         <div class="card-body text-center">
           <h5 class="card-title">Trainee</h5>
           <h6 class="card-subtitle mb-2 text-muted py-3">Tienen un descuento</h6>
@@ -53,7 +53,7 @@
           <p class="card-text text-muted box-p">*Presentar documentación</p>
         </div>
       </div>
-      <div class="card mx-1 border-2 border-warning box">
+      <div class="card row-cols-1 mx-1 gy-3 border-2 border-warning box">
         <div class="card-body text-center">
           <h5 class="card-title">Junior</h5>
           <h6 class="card-subtitle mb-2 text-muted py-3">Tienen un descuento</h6>
@@ -68,10 +68,10 @@
 
     <form class="">
     <div class="row g-3">
-      <div class="col">
+      <div class="col-sm-12 col-md-6">
         <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
       </div>
-      <div class="col">
+      <div class="col-sm-12 col-md-6">
         <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
       </div>
     </div>
@@ -79,12 +79,12 @@
       <input type="text" class="form-control" placeholder="Correo" aria-label="Last name">
     </div>
     <div class="row g-3">
-      <div class="col">
-        <label class="mb-2">Cantidad</label>
+      <div class="col-sm-12 col-md-6">
+        <label class="mb-2 ms-1">Cantidad</label>
         <input type="text" class="form-control" placeholder="Cantidad" aria-label="First name">
       </div>
-      <div class="col">
-      <label class="mb-2">Categoría</label>
+      <div class="col-sm-12 col-md-6">
+      <label class="mb-2 ms-1">Categoría</label>
       <select class="form-select col" aria-label="Default select example">
         <option value="1">Estudiante</option>
         <option value="2">Trainee</option>
@@ -99,9 +99,13 @@
     Total a pagar: $
   </div>
 
-  <div class="row mb-4">
-    <button class="btn btn-success col form-button mx-1" type="button">Button</button>
-    <button class="btn btn-success col form-button mx-1" type="button">Button</button>
+  <div class="row mb-3">
+    <div class="col-sm-12 col-md-6 gy-3">
+    <button class="btn btn-success me-1 form-button w-100 " type="button">Borrar</button>
+    </div>
+    <div class="col-sm-12 col-md-6 gy-3">
+    <button class="btn btn-success form-button w-100" type="button">Resumen</button>
+  </div>
   </div>
 
 

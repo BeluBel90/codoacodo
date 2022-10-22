@@ -41,10 +41,27 @@ footer{
 }
 
 
+@media screen and (max-width:1200px){
+    main{
+        width: 75%;
+        margin: 0 auto;
+    }
+}
+
+@media screen  and (max-width:768px) {
+    main{
+        width:90%;
+        margin:0 auto;
+    }
+    
+}
+
 @media screen  and (max-width: 576px) {
     #footer-list{
         display: block;
-       
+    }
+    .box{
+        width: 75%;
     }
 
  }
