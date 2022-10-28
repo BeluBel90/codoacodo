@@ -17,7 +17,7 @@
         <nav class="navbar  navbar-expand-md navbar-dark">
           <div class="container-fluid">
             <a class="navbar-brand ms-xxl-5 ms-md-3" href="/index.html">
-              <img src="/BeluBel90/codoacodo/imagenes/codoacodo7.png" id="logo-img"> Conf Bs As</a>
+              <img src="/imagenes/codoacodo7.png" id="logo-img"> Conf Bs As</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -66,7 +66,7 @@
     <p class="text-center mt-4">VENTA</p>
     <p class="fs-1 text-center">VALOR DE TICKET $200</p>
 
-    <form id="form">
+    <form id="ticket-form">
     <div class="row g-3">
       <div class="col-sm-12 col-md-6">
         <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
@@ -83,17 +83,16 @@
         <label class="mb-2 ms-1" for="cantidad">Cantidad</label>
         <input type="number" class="form-control" id="cantidad" placeholder="Cantidad" aria-label="First name">
       </div>
+
       <div class="col-sm-12 col-md-6">
       <label class="mb-2 ms-1" for="categoria">Categoría</label>
-      <select class="form-select col" id="categoria" aria-label="Default select example" onchange="select();">
-        <option value="estudiante">Estudiante</option>
-        <option value="trainee">Trainee</option>
-        <option value="junior">Junior</option>
+      <select class="form-select col" id="categoria" aria-label="Default select example">
+        <option value="1">Estudiante</option>
+        <option value="2">Trainee</option>
+        <option value="3">Junior</option>
       </select>
       </div>
     </div>
-  </form>
-
 
   <div class="alert alert-primary my-5" role="alert" id="alert">
     Total a pagar: 
@@ -104,10 +103,10 @@
     <button class="btn btn-success me-1 form-button w-100 " type="button" onclick="limpiar();">Borrar</button>
     </div>
     <div class="col-sm-12 col-md-6 gy-3">
-    <button class="btn btn-success form-button w-100" type="button" onclick="mostrar();">Resumen</button>
+    <button class="btn btn-success form-button w-100" type="submit" >Resumen</button>
   </div>
   </div>
-
+</form>
 
 </main>
   <footer>

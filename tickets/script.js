@@ -1,35 +1,32 @@
 
-let cant = parseInt(document.getElementById("cantidad").value);
+const form = document.querySelector('#ticket-form');
 
- 
+ form.addEventListener ('submit', event => { 
+     event.preventDefault();
 
- function select(){
-    let option = parseInt(document.querySelector("categoria").value);
-    return option;
-}
+     const select = document.querySelector('#categoria');
+     const cant = document.querySelector('#cantidad');
+     var suma;
+     
+     if(select.value == 1){
+         suma = (200*0.2)*cant.value;
+     }else if ( select.value == 2){
+         suma = (200*0.5)*cant.value;
+     }else {
+         suma = (200*0.85)*cant.value;
+     }
 
-function mostrar(){
-    let alert = document.querySelector("alert").innerHTML = `$ ${suma}`;
-}
 
-let valor = select();
-var suma; 
-select();
-    if (option =1) {
-         suma= cant*(0.2*200);
+     const alert = document.querySelector('#alert');
+     alert.textContent = 'Total a pagar: $ ' + suma;
 
-  }else if(valor = 2){
-          suma= cant*(0.5*200);
-      }
-      else{
-          suma= cant*(0.15*200);
-      }
-      mostrar();
-   
-
+ })
 
 
 function limpiar(){
-    document.getElementById('form').reset();
+    document.querySelector('#ticket-form').reset();
+    const alert = document.querySelector('#alert');
+    alert.textContent = 'Total a pagar: $ ';
+    
 }
 
